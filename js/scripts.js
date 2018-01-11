@@ -7,7 +7,10 @@ console.log('Twoj wynik to: ' +value);
 if (value > 0) {
     alert('Twoj wynik jest dodatni')
     console.log('Twoj wynik jest dodatni');
-} else (value < 0) {
+} else if (value < 0) {
     alert('Twoj wynik jest ujemny')
     console.log ('Twoj wynik jest ujemy');
-} 
+} else  {
+   alert('0 jest nieujemne ani niedodatnie, chyba');
+    console.log ('0 jest nieujemne ani niedodatnie, chyba');
+}
